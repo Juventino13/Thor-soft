@@ -1,0 +1,178 @@
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    $(function () {
+        $("#campofecha").datepicker({
+            numberOfMonths: 2,
+            showButtonPanel: true
+        });
+         $("#campofecha2").datepicker({
+            numberOfMonths: 2,
+            showButtonPanel: true
+        });
+    });
+</script>
+<br> 
+
+<div class=" text-center">
+<div class="container">
+
+        <legend>Registro </legend> 
+        
+     <img src="/app/imagenes/asd.jpg" alt="Logo INAH "> 
+        
+        <table align="center">
+            
+    <tr>
+        <th> Fecha</th>
+        <td> <input type="text" id="campofecha"></td>
+      </tr>
+     
+      <tr>
+        <th> Expediente</th>
+        <td> <input type="text"></></td>
+      </tr>
+
+      <tr>
+        <th> <p>Area </p></th>
+        <td> <select>
+            <option value="Historicos">Monumentos Historicos</option>
+            <option value="Arq">Arqueologia</option>
+            <option value="Dire">Conservacion</option>
+            <option value="Vecinales">Juntas Vecinales</option>
+            <option value="Nacional">Coordinación Nacional de Asuntos</option>
+            <option value="RegistroArq">Dirección de Registro Arqueológico </option>
+            <option value="Nayarit">Dirección del Centro INAH Nayarit</option>
+          </select></td>
+      </tr>
+
+      <tr>
+        <th>   <p>Municipio</p></th>
+        <td> <select>
+            <option value="Historicos">Selecciona..</option>
+          </select></td>
+      </tr>
+
+      <tr>
+        <th>  <p>Solicitante </></p></th>
+        <td> <input type="text"></td>
+      </tr>
+
+
+      <tr>
+        <th> <p>Propietario </p> </th>
+        <td> <input type="text"></td>
+      </tr>
+
+      <tr>
+        <th> <p>Tramite a realizar </p> </th>
+        <td>  <input type="text"> </td>
+      </tr>
+
+      <tr>
+        <th>   <p>Area </p> </th>
+        <td>   <select>
+            <option value="arq1">Arquitecto 1</option>
+            <option value="arq1">Arquitecto 2</option>
+            <option value="arq1">Arquitecto 3</option>
+            <option value="arq1">Arquitecto 4</option>
+          </select> </td>
+      </tr>
+
+      <tr>
+        <th>  <p>SIT</P> </th>
+        <td>  <form>
+       
+            <fieldset>
+                
+                <label>
+                    <input type="radio" name="color" value="Si"> Si
+                </label>
+                <label>
+                    <input type="radio" name="color" value="No"> No
+                </label>
+              
+            </fieldset>
+     
+        </form> </td>
+      </tr>
+
+    <tr>
+        <th>  <p>Junta</p> </th>
+        <td>   <form>
+            <fieldset>
+               
+                <label>
+                    <input type="radio" name="color" value="Si"> Si
+                </label>
+                <label>
+                    <input type="radio" name="color" value="No"> No
+                </label>
+              
+            </fieldset>
+     
+        </form> </td>
+      </tr>
+
+
+      <tr>
+        <th> <p>Tramite a realizar </p> </th>
+        <td>  <input type="text"> </td>
+      </tr>
+
+      <tr>
+        <th> <p>Fecha de respuesta </p> </th>
+        <td>  <input type="text" id="campofecha2"> </td>
+      </tr>
+
+
+      <tr>
+        <th><p> Autorizacion </p>  </th>
+        <td> <form> 
+
+            <input type="number" name="quantity" min="1" max="30">/
+            <input type="number" name="quantity" min="1" max="30"> MHCN
+           
+           </form>  </td>
+      </tr>
+
+      
+      <tr>
+        <th>  <p>Oficio </p> </th>
+        <td>  <input type="text" id="campofecha2"> </td>
+      </tr>
+
+      <tr>
+        <th> <p> Dias habiles trasncurridos </p> </th>
+        <td>  <input type="number" name="quantity" min="1" max="30"> </td>
+      </tr>
+
+
+      <tr>
+        <th> <p>Autorizado</P></th>
+            <td> <label>
+            <input type="radio" name="color" value="Si"> Si
+        </label>
+        <label>
+            <input type="radio" name="color" value="No"> No
+        </label>
+      
+   </td>
+  </tr>
+
+  </table>
+  <button type="submit" form="nameform" value="Submit">Aceptar</button>
+  <br> 
+  <br>
+</div>
+</div>
+
+
+  
+        
+
+
+
+
+
